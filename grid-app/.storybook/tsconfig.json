@@ -1,0 +1,23 @@
+{
+    "extends": "../tsconfig.json",
+    "exclude": [
+        "../src/test.ts",
+        "../src/**/*.spec.ts",
+        "../projects/**/*.spec.ts"
+      ],
+    "compilerOptions": {
+      "declaration": true,
+      "types": [
+        "node"
+      ],
+      "target": "es2015",
+      "lib": ["es6", "dom"]
+    },
+    "include": [
+      "../src/**/*.stories.ts"
+    ],
+    "files": [
+      "./typings.d.ts"
+    ]
+  }
+  
